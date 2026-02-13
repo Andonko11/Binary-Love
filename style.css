@@ -42,11 +42,10 @@ button {
 
 /* No Button */
 #no {
-    background-color: lightcoral;
-    color: white;
-    position: relative;
-    transition: transform 0.3s ease, opacity 0.3s ease;
+    position: absolute;
+    transition: left 0.15s ease, top 0.15s ease;
 }
+
 
 /* Shaking Animation */
 @keyframes shake {
